@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gerrard Hudson | Writing Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#ede2cf;
+color:#111;
+font-family:"Cormorant Garamond", serif;
+display:flex;
+height:100vh;
+overflow:hidden;
+}
+
+.sidebar{
+width:260px;
+background:#e5d6bd;
+border-right:1px solid #8c7a62;
+padding:35px;
+}
+
+.feather{
+font-size:65px;
+margin-bottom:40px;
+}
+
+nav ul{
+list-style:none;
+}
+
+nav li{
+margin-bottom:15px;
+}
+
+nav a,
+nav button{
+
+font-family:"Cinzel", serif;
+font-size:21px;
+color:#111;
+text-decoration:none;
+background:none;
+border:none;
+cursor:pointer;
+
+}
+
+nav a:hover,
+nav button:hover{
+
+opacity:.6;
+
+}
+
+
+.submenu{
+
+display:none;
+padding-left:20px;
+margin-top:15px;
+
+}
+
+.submenu li{
+
+margin-bottom:12px;
+
+}
+
+.submenu a{
+
+font-family:"Cormorant Garamond", serif;
+font-size:20px;
+
+}
+
+
+.content{
+
+flex:1;
+overflow-y:auto;
+padding:70px;
+
+}
+
+
+.page{
+
+display:none;
+max-width:900px;
+margin:auto;
+
+}
+
+
+.page.active{
+
+display:block;
+
+}
+
+
+h1{
+
+font-family:"Cinzel",serif;
+font-size:55px;
+font-weight:400;
+margin-bottom:35px;
+
+}
+
+
+h2{
+
+font-family:"Cinzel",serif;
+font-size:32px;
+margin-top:50px;
+margin-bottom:20px;
+
+}
+
+
+p{
+
+font-size:23px;
+line-height:1.7;
+margin-bottom:25px;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="sidebar">
+
+<div class="feather">
+
+🪶
+
+</div>
+
+
+<nav>
+
+<ul>
+
+
+<li>
+<a href="#" onclick="showPage('home')">
+Home
+</a>
+</li>
+
+
+
+<li>
+
+<button onclick="toggleWork()">
+
+Work ▼
+
+</button>
+
+
+<ul class="submenu" id="workMenu">
+
+
+<li>
+<a href="#" onclick="showPage('article')">
+Game Article: Top 10 Tag Team Fighters
+</a>
+</li>
+
+
+<li>
+<a href="#" onclick="showPage('journalism')">
+Journalism: The Josh Swain Battle
+</a>
+</li>
+
+
+<li>
+<a href="#" onclick="showPage('blank1')">
+Blank
+</a>
+</li>
+
+
+<li>
+<a href="#" onclick="showPage('blank2')">
+Blank
+</a>
+</li>
+
+
+<li>
+<a href="#" onclick="showPage('blank3')">
+Blank
+</a>
+</li>
+
+
+</ul>
+
+</li>
+
+
+
+<li>
+
+<a href="#" onclick="showPage('contact')">
+
+Contact
+
+</a>
+
+</li>
+
+
+
+</ul>
+
+</nav>
+
+
+</div>
+
+
+
+<div class="content">
+
+
+
+<section class="page active" id="home">
+
+<h1>
+Welcome
+</h1>
+
+<p>
+A collection of writing, journalism, and creative works.
+</p>
+
+</section>
+
+
+
+<section class="page" id="contact">
+
+<h1>
+Contact
+</h1>
+
+<p>
+Email: your@email.com
+</p>
+
+</section>
+
+
+
+<section class="page" id="blank1">
+
+<h1>
+Coming Soon
+</h1>
+
+</section>
+
+
+
+<section class="page" id="blank2">
+
+<h1>
+Coming Soon
+</h1>
+
+</section>
+
+
+
+<section class="page" id="blank3">
+
+<h1>
+Coming Soon
+</h1>
+
+</section>
+
+
+
+<section class="page" id="journalism">
+
+
+<h1>
+Journalism: The Josh Swain Battle
+</h1>
+
+
+<p>
+It was a battle of the Joshes on April 24th this year, as several people with the same name gathered for a battle royal.
+</p>
+
+
+<p>
+In 2020, a 22 year old Josh Swain messaged several sharing his name on Facebook with a single proposition: a battle between each and every one of them. The winner of this free-for-all would earn the right to be the one true Josh Swain while the losers would have to forfeit the right to their former names. At pure random, the coordinates and date were set.
+</p>
+
+
+<p>
+"It was entirely a joke," says the original Swain. "I see people making memes about me and my name, and it's the weirdest feeling ever." Joke or not, Swain had everybody's attention. After Swain posted screenshots of the group chat to Twitter, more and more people had their eyes set on the event. Word spread onto other websites. Soon even an entire fanbase based on the website, Reddit, was formed, gaining over 3,000 members. The internet appropriately dubbed this event the Josh Swain Battle.
+</p>
+
+<p>
+One issue arose when someone found the coordinates given were actually those of someone's home who had no clue of the Swainbowl. Soon, there was too much attention to not see this joke through to the end. After this, the original Swain changed the coordinates and formed a proper plan. Those curious would come to him for updates.
+</p>
+
+<p>
+"To be totally honest, I did not intend for this to actually happen. I picked those coordinates at random as the geographical center of the U.S... I do intend to be there, however I don't want to make it a burden on some innocent landowner nearby."
+</p>
+
+<p>
+Following this, a sign was formed near the original coordinates stating that the Josh Swain Battle would not take place there and to go to the new location.
+</p>
+
+<p>
+The most recent update regarding the event was four days before the big battle. On a Reddit post, the original Swain posted a verification form for attendees to fill out as well as updated rules. The famous battle would be a rock paper scissors game that would follow a pool noodle battle between anyone with the name. Those who only had the first name of Josh would also be allowed to partake. Specifically, in the pool noodle battle.
+</p>
+
+<p>
+Additionally, a donation fund would also be present, with part of the money going to a medical center. He ends the post by saying “Please consider donating to show the world how the internet can turn an exercise in absurdity into something beautiful.”
+</p>
+
+<p>
+In the end, only one other person bearing the name Josh Swain arrived to the challenge, but to those watching, that did not disappoint. With 950 live spectators at the scene, and 50 other attendees holding the first name of Josh, this unusual battle royal was still in some ways a success.
+</p>
+
+
+</section>
+
+
+
+<section class="page" id="article">
+
+
+<h1>
+10 Best Teams In Fighting Games
+</h1>
+
+
+<p>
+Fighting games usually follow a simple tried and true method. Two fighters on screen with the only goal being to beat the stuffing of the other person. Depending on which game it is, there might even be eight fighters, but the point still remains that near the end of the match, only one of them can be the victor. That is why it’s so refreshing when a fighter does possibly the more realistic things to do in a scrap, and bring in backup.
+</p>
+
+
+<p>
+This is a list of quantity vs quality, bringing into the spotlight a host of characters who prefer to take up a fight with numbers by their side. To make things clear, this is only counting characters who have their partner as a vital part of their moveset, so only bringing in a teammate for one or two attacks will not count here.
+</p>
+
+
+<h2>
+10/10 Rosalina & Luma | Super Smash Bros.
+</h2>
+
+
+<p>
+Smash Brothers is no stranger to team characters, being sure to have at least one in every game since Melee. But perhaps to the joy of certain Melee fans with vivid flashbacks of the Ice Climbers, let's go over one of the other team characters in Smash Bros. Namely, Rosalina and Luma.
+</p>
+
+
+<p>
+Working in a similar fashion to the Ice Climbers, Rosalina and Luma will mimic each other’s buttons. If the player does an up tilt with Rosalina, Luma will follow suit, making it possible to hit an opponent twice with a single command. What separates the two is how the player can make Luma move away from its partner to control two spaces at once.
+</p>
+
+
+<h2>
+9/10 Zato-1 | Guilty Gear
+</h2>
+
+
+<p>
+No matter what one thinks of the game, no one can deny that it features some of the more distinct characters in fighting games. A child who hits people in the head with an anchor and plays with a dolphin mid-fight? That’s May. A girl who disguises herself in a mech suit to look like a man? That’s obviously Kum. A kid with glasses who is literally fighting in his sleep? Bedman.
+</p>
+
+
+<p>
+While there are quite a few characters who get the assistance of an ally, Zato-1 and his shadow-like summons take the center stage here. Half of Zato’s entire gameplan revolves around his shadow companion, Eddie, and the limitless possibilities centered around him.
+</p>
+
+
+<p>
+At any point in the match, he can summon Eddie. This eerie dark being can be told to do a list of commands separate from his partner, letting the two create visually impressive combos that never seem to end.
+</p>
+
+
+<h2>
+8/10 Videl | Dragon Ball FighterZ
+</h2>
+
+
+<p>
+In Dragon Ball FighterZ, people are going to see characters who rank amongst the most powerful across the universe. So how is an ordinary human going to keep up with a roster of ridiculously strong heavy hitters? By bringing her husband into battle.
+</p>
+
+
+<p>
+Introducing Gohan, the Great Saiyaman. Sure, Videl cannot shoot exploding energy blasts from her hands, but Gohan sure can. Much of her gameplay revolves around getting in the opponent's face and calling him in for backup to extend her combos.
+</p>
+<h2>
+7/10 Ferra & Torr | Mortal Kombat X
+</h2>
+
+
+<p>
+While they admittedly weren’t the most popular amongst players, the fact that these were two characters filling a slot on the roster made them stand out among the cast. The thing that makes these two stand out from the other team characters in the series is that they extend each other’s moves instead of waiting to be tagged in.
+</p>
+
+
+<p>
+Their attacks include Torr using his partner as a human bat, chucking her at the opponent from one of three different angles or grabbing the opponent to let Ferra carve into their head or guts. Ferra can even surprise the opponent at the end of a string for a sneaky hit.
+</p>
+
+
+<p>
+The only downside to this brutish duo is how easy it can be for their synergy to break. The moment Torr is knocked down, moves involving Ferra are removed until she gets back.
+</p>
+
+
+<h2>
+6/10 Pain | Naruto Shippuden: Ultimate Ninja Storm
+</h2>
+
+
+<p>
+Pain is one of the big villains of Naruto Shippuden. With a sympathetic goal similar to the main character’s but with a much more violent twist, Pain quickly cemented himself as a horrifying threat to face.
+</p>
+
+
+<p>
+Of course, he has his signature almighty push that hits even when the opponent is behind him, but his most intimidating aspect is that he brings his entire team to help fight.
+</p>
+
+
+<p>
+Each of his combo attacks summons a different member of the team while the main man himself looms menacingly behind them. Even his grab involves a team member teleporting in to feed the enemy to a large, sentient gate.
+</p>
+
+
+<h2>
+5/10 Cait & Sith | Chaos Code
+</h2>
+
+
+<p>
+A wise man once said, “I got you, fam!” and two warriors from Chaos Code embody this phrase. Chaos Code was a lesser-known fighting game released by Arc System Works.
+</p>
+
+
+<p>
+Teamwork is the name of the game as the player controls both twins to pull off some really flashy combos. Many of their moves consist of bringing in the other sibling or using the other as a human weapon.
+</p>
+
+
+<p>
+From helping the other out with a cartwheel that damages the opponent to spinning the other to let their legs hit the enemy, these twins are more than ready to bust some heads.
+</p>
+
+
+<h2>
+4/10 Jotaro Kujo | JoJo's Bizarre Adventure: Heritage for the Future
+</h2>
+
+
+<p>
+JoJo’s Bizarre Adventure is a series known for ultra-powerful warriors beating each other to a pulp with the literal embodiment of their fighting spirit. Naturally, this translates amazingly well into a fighting game.
+</p>
+
+
+<p>
+With his Stand, Star Platinum, Jotaro is able to perform some pretty flashy combos, some of which even involve the Stand showing up on the other side of the opponent to trap the unlucky person in between them.
+</p>
+
+
+<p>
+Then he has access to the famous time stop ability where the player can go wild with whatever creative combo they can think of. Jotaro and his Stand are series mascots for a reason.
+</p>
+
+
+<h2>
+3/10 Tomoka Minato | Dengeki Bunko: Fighting Climax
+</h2>
+
+
+<p>
+In the crossover fighting game, Fighting Climax, anime fans can finally live out their dream of having characters from different series clash together. In this crossover, aspiring basketball player Tomoka from Ro-Kyu-Bu offers some much-needed team play.
+</p>
+
+
+<p>
+Tomoka is able to bring her friends to do a list of things, including sending a projectile basketball that drops on the opponent’s head, skidding on the ground to pop an enemy back off the floor, spiking the enemy back down, or passing the transformed opponent so Tomoka can dribble them to a hoop.
+</p>
+
+
+<p>
+Tomoka and her friends are playing a completely different game in every sense of the word.
+</p>
+<h2>
+2/10 The Maids | Melty Blood
+</h2>
+
+
+<p>
+Melty Blood has recently boomed in popularity in the last few years. This means there are new fans but also means there are even more people who know why Hisui and Kohaku are included here.
+</p>
+
+
+<p>
+Hisui and Kohaku can both be picked individually. This will allow them to unlock slightly more moves that the other twin would simply not allow in their presence. But when picked as a team, they become a nightmare of mixups, setups, and flashy combos.
+</p>
+
+
+<p>
+In some instances, they can even make an unsafe command completely safe by tagging into the other twin. Add that with the optional third ally to worry about in the form of a tree monster the maids can summon, and these twins become a problem for any foe.
+</p>
+
+
+<h2>
+1/10 Squigly | Skullgirls
+</h2>
+
+
+<p>
+Skullgirls was a 2D hand-drawn fighting game released in 2012 and to this day, the characters still reign as some of the more unique in its genre. From a zombie catgirl who can take her head off and use it as a second player onscreen, to a wrestler using the severed hand of a dead monster as a weapon.
+</p>
+
+
+<p>
+Squigly is one of the two undead characters in the game, but rather than removing her limbs, she is partnered with her fire-breathing pet, Leviathan, who weirdly decided to take refuge in her corpse before she was resurrected.
+</p>
+
+
+<p>
+Leviathan is an ancient parasite that latches to a host. This one in particular is one of the more polite ones in the roster, meshing with the well-mannered Squigly to form some adorable and playful attack animations between them where a simple gesture is a code for “go get ’em.”
+</p>
+
+
+<p>
+There are even a few animations that don’t truly look like they’re fighting at all, but simply enjoying each other’s company. The enemy just happens to be standing too close.
+</p>
+
+
+</section>
+
+
+</div>
+
+
+<script>
+
+
+function showPage(pageID){
+
+let pages=document.querySelectorAll(".page");
+
+pages.forEach(function(page){
+
+page.classList.remove("active");
+
+});
+
+
+document.getElementById(pageID).classList.add("active");
+
+}
+
+
+function toggleWork(){
+
+let menu=document.getElementById("workMenu");
+
+
+if(menu.style.display==="block"){
+
+menu.style.display="none";
+
+}
+
+else{
+
+menu.style.display="block";
+
+}
+
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
